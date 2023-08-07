@@ -14,3 +14,6 @@ install:
 
 build_script:
   - ./gradlew test --info
+  -
+test_script:
+  - shellcheck -V
